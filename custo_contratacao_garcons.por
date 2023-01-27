@@ -16,7 +16,7 @@ programa
     limpa()
 
     escreva("--------------------------------------------------------------------------------------------------------------------\n")
-		escreva("O custo total que o hotel terá com a contratação desses profissionais é igual a: ", custo, " horas\n")
+    escreva("O custo total que o hotel terá com a contratação desses profissionais é igual a: ", custo, " horas\n")
     escreva("--------------------------------------------------------------------------------------------------------------------\n")
 	}
 }
