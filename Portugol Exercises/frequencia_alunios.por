@@ -15,8 +15,8 @@ programa
 	
 	limpa()
 	
-    escreva("Digite a quantidade total de aulas da disciplina:\t")
-    leia(aulas)
+    	escreva("Digite a quantidade total de aulas da disciplina:\t")
+    	leia(aulas)
 	
 	limpa()
 	
