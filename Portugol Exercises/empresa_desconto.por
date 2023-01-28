@@ -1,3 +1,6 @@
+/* Programa que faz o cálculo do valor total, já com descontos, para a contratação de uma
+empresa de manutenção para o hotel */
+
 programa 
 {
 	funcao inicio() 
