@@ -1,3 +1,5 @@
+/* Código responsável por calcular a frequência escolas de um aluno */
+
 programa 
 {
 	funcao inicio() 
