@@ -9,21 +9,21 @@ programa
 		
    limpa()
 
-   enquanto(cont <= hospedes)
-   {
-   escreva("Informe o número do quarto do hóspede ", cont, ": \t")
-   leia(quarto)
+      enquanto(cont <= hospedes)
+      {
+      escreva("Informe o número do quarto do hóspede ", cont, ": \t")
+      leia(quarto)
 		
-   escreva("\nAgora, informe o valor individual da diária do mesmo: \t")
-   leia(diaria)
+      escreva("\nAgora, informe o valor individual da diária do mesmo: \t")
+      leia(diaria)
 		
-   escreva("\n")
+      escreva("\n")
 
-   limpa()
+      limpa()
 	
-   total=(total+diaria)
-   cont++
-   }
+      total=(total+diaria)
+      cont++
+      }
 		
    escreva("O valor total das diárias é: R$", total, "\n")
    }
