@@ -1,3 +1,5 @@
+/* Cálculo de média e frequência de 2 notas para uma classe com 15 alunos. Ao final, é mostrado se o aluno em questão foi aprovado, reprovado ou está de exame */
+
 programa 
 {
     funcao inicio()
