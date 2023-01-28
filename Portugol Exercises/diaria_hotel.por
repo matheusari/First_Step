@@ -1,5 +1,5 @@
 /* Código desenvolvido para calcular o valor total em diárias do hotel. É importante dizer que hóspedes menores de 5 anos
-possuem gratuidade e maiores de 80 anos pagam meia. O restante dos hóspedes paga a tarifa completa. Além disso, mostramos ao final
+possuem gratuidade e maiores de 80 anos pagam meia. O restante dos hóspedes pagam tarifa completa. Além disso, mostramos ao final
 do programa a quantidade de gratuidades, meia-entradas e inteiras. Por fim, a idade do hóspede mais novo e do hóspede mais velho
 também foram destacados. */
 
