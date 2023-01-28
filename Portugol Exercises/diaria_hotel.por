@@ -1,7 +1,7 @@
 /* Código desenvolvido para calcular o valor total em diárias do hotel. É importante dizer que hóspedes menores de 5 anos
 possuem gratuidade e maiores de 80 anos pagam meia. O restante dos hóspedes pagam tarifa completa. Além disso, mostramos ao final
 do programa a quantidade de gratuidades, meia-entradas e inteiras. Por fim, a idade do hóspede mais novo e do hóspede mais velho
-também foram destacados. */
+também são mencionadas. */
 
 programa 
 {
@@ -13,8 +13,8 @@ programa
 
     escreva("Bem vindo ao Hotel Várzea Paulista!\n\nO valor padrão de nossa diária é R$100,00.\n")
     
-        enquanto(continuar == 'S')
-        {
+       enquanto(continuar == 'S')
+       {
         
             para(inteiro cont = 1; cont <= 6; cont++)
             {
@@ -25,55 +25,55 @@ programa
             escreva("Insira a idade do hóspede:\t")
             leia(idade)
     
-            se(cont == 1)
-            {
-            maisvelho = idade
-            maisnovo = idade
-            }
-            senao
-            {
-                se(idade > maisvelho)
-                {
-                maisvelho = idade
-                }
+               se(cont == 1)
+               {
+               maisvelho = idade
+               maisnovo = idade
+               }
+               senao
+               {
+               se(idade > maisvelho)
+               {
+               maisvelho = idade
+               }
                 
-                se(idade < maisnovo)
-                {
-                maisnovo = idade
-                }
+               se(idade < maisnovo)
+               {
+               maisnovo = idade
+               }
             }
                 
-                    se (idade > 4 e idade < 80)
-                    {
-                    escreva("\n" ,hospede, " paga inteira.\n")
-                    total = (total + 100)
-                    diaria++
-                    inteira++
-                    }
+            se (idade > 4 e idade < 80)
+            {
+            escreva("\n" ,hospede, " paga inteira.\n")
+            total = (total + 100)
+            diaria++
+            inteira++
+            }
                             
-                    se (idade < 5)
-                    {
-                    escreva("\n" ,hospede, " possui gratuidade!\n")
-                    diaria++
-                    gratuidade++
-                    }
+            se (idade < 5)
+            {
+            escreva("\n" ,hospede, " possui gratuidade!\n")
+            diaria++
+            gratuidade++
+            }
                             
-                    se (idade > 79)
-                    {
-                    escreva("\n" ,hospede, " paga meia entrada!\n")
-                    total = (total + 50)
-                    diaria++
-                    meia++
-                    }
+            se (idade > 79)
+            {
+            escreva("\n" ,hospede, " paga meia entrada!\n")
+            total = (total + 50)
+            diaria++
+            meia++
+            }
                     
-                escreva("\nSe quiser adicionar mais hóspedes, digite 'S'. Caso contrário, digite 'N':\t")
-                leia(continuar)
+            escreva("\nSe quiser adicionar mais hóspedes, digite 'S'. Caso contrário, digite 'N':\t")
+            leia(continuar)
         
-                se (continuar == 'N')
-                {
-                escreva("\nA soma total das diarias é igual a: R$", total,"\nForam ",diaria, " diárias, sendo ",inteira," inteiras, ", gratuidade," gratuidades e ", meia, " meias.\nO hóspede mais velho está com ",maisvelho, " ano(s)\nO hóspede mais novo está com ", maisnovo, " ano(s)\n")
-                rep=1
-                }
+            se (continuar == 'N')
+            {
+            escreva("\nA soma total das diarias é igual a: R$", total,"\nForam ",diaria, " diárias, sendo ",inteira," inteiras, ", gratuidade," gratuidades e ", meia, " meias.\nO hóspede mais velho está com ",maisvelho, " ano(s)\nO hóspede mais novo está com ", maisnovo, " ano(s)\n")
+            rep=1
+            }
             }
         }
     }
