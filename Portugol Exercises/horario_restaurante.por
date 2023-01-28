@@ -1,4 +1,4 @@
-*/ Código simples que simula a reserva de mesas de um restaurante. De segunda a sexta-feira o funcionamento do espaço é das 7h às 23h.
+/* Código simples que simula a reserva de mesas de um restaurante. De segunda a sexta-feira o funcionamento do espaço é das 7h às 23h.
 De sábado e domingo o restaurante funciona das 7h às 15h. */
 
 programa  
