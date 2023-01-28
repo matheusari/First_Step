@@ -1,3 +1,6 @@
+/* Programa responsável por automatizar o cálculo de café, água e salgadinhos por pessoa para uma festa. As estatísticas médias, por pessoa, são:
+200 ml de café, 500ml de água e 7 salgadinhos por pessoa. */
+
 programa
 {
 	funcao inicio()
