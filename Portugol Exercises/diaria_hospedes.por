@@ -1,3 +1,6 @@
+/* Um sistema que calcula, de acordo com a quantidade de hóspedes e suas respectivas diárias, o valor total que o hotel receberá levando em consideração
+a soma das diárias de todos os hóspedes */
+
 programa 
 {
    funcao inicio() 
