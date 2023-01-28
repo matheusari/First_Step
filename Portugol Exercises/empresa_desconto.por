@@ -6,7 +6,7 @@ programa
 	caracter continuar
 	inteiro servico, quantidade, desconto, minima, total
 	
-	escreva("Seja bem vindo ao Hotel V·rzea Paulista!\n\n")
+	escreva("Seja bem vindo ao Hotel V√°rzea Paulista!\n\n")
 	
     	faca 
     	{
@@ -14,18 +14,18 @@ programa
     	leia(empresa)
     	limpa()
     	
-    	escreva("Informe o valor do serviÁo por aparelho:\t")
+    	escreva("Informe o valor do servi√ßo por aparelho:\t")
     	leia(servico)
     	limpa()
     	
-    	escreva("Informe a quantidade de aparelhos deixados em manutenÁ„o:\t")
+    	escreva("Informe a quantidade de aparelhos deixados em manuten√ß√£o:\t")
     	leia(quantidade)
     	limpa()
     	
-    	escreva("Informe o percentual de desconto oferecido pela empresa. Caso n„o haja, digite '0':\t")
+    	escreva("Informe o percentual de desconto oferecido pela empresa. Caso n√£o haja, digite '0':\t")
     	leia(desconto)
     	
-    	escreva("\nInforme a quantidade mÌnima de aparelhos para que o desconto seja dado:\t")
+    	escreva("\nInforme a quantidade m√≠nima de aparelhos para que o desconto seja dado:\t")
     	leia(minima)
     	
         	se (quantidade >= minima)
@@ -39,12 +39,13 @@ programa
         	}
     	
       escreva("\n---------------------------------------------------------")
-    	escreva("\nO serviÁo da empresa ", empresa, " custar· R$ ", total)
-    	escreva("\n")
+      escreva("\nO servi√ßo da empresa ", empresa, " custar√° R$ ", total)
+      escreva("\n")
       escreva("---------------------------------------------------------\n")
-    	escreva("\nDeseja continuar? Digite 'S' para informar mais dados e 'N' para finalizar:\t")
-    	leia(continuar)
-    	limpa()
+      escreva("\nDeseja continuar? Digite 'S' para informar mais dados e 'N' para finalizar:\t")
+      leia(continuar)
+
+      limpa()
     	
 	    } enquanto (continuar == 'S' ou continuar == 's')
 	}
