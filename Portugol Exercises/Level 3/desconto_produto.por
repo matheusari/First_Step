@@ -1,3 +1,5 @@
+/* Cálculo de desconto para determinada empresa de acordo com suas regras de venda */
+
 programa 
 {
 	funcao inicio() 
