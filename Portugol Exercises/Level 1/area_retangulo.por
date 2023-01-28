@@ -6,7 +6,7 @@ programa
 	{
 	real b, h
 	
-	escreva("Seja bem vindo ao automatizador de área de um retângulo!\n\n")
+	escreva("Seja bem vindo a calculadora de área do retângulo!\n\n")
 	escreva("Digite a medida da base do retângulo:\t")
 	leia(b)
 	
