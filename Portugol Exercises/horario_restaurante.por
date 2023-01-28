@@ -1,3 +1,5 @@
+*/ Código simples que simula a reserva de mesas de um restaurante. De segunda a sexta-feira o funcionamento do espaço é das 7h às 23h.
+De sábado e domingo o restaurante funciona das 7h às 15h. */
 
 programa  
 {
@@ -17,7 +19,7 @@ programa
 		escreva("\nAgora, digite um horário de sua preferência - (ex: 9):\t")
 		leia(hora)
 	    
-			se (hora > 6 e hora < 24)
+			se (hora >= 7 e hora <= 23)
 			{
 			escreva ("\nPor fim, digite o nome da sua empresa:\t")
 			leia(empresa)
@@ -40,7 +42,7 @@ programa
 		escreva("\nAgora, digite um horário de sua preferência - (ex: 9):\t")
 		leia(hora)
 	    
-			se (hora > 6 e hora < 16)
+			se (hora >= 7 e hora <= 15)
 			{
 			escreva ("\nPor fim, digite o nome da sua empresa:\t")
 			leia(empresa)
