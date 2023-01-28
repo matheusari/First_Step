@@ -1,6 +1,6 @@
 /* Programa desenvolvido para automatizar o cálculo da contratação de um grupo de garçons para o restaurante
-do hotel. A equação para descobrir o valor total é igual a quantidade de garçons contratados multiplicado pelas
-horas trabalhas e por uma taxa de 10,5) */
+do hotel. A equação para descobrir o valor total é igual a quantidade de garçons contratados multiplicado pela
+quantidade de horas trabalhadas mais uma taxa fixa de R$1000,00. */
 
 programa
 {
@@ -15,7 +15,7 @@ programa
    escreva("2. Insira a quantidade de horas:\t")
    leia(horas)
 
-   custo = garcons * horas * 10.5
+   custo = (garcons * horas) + 1000
 
    limpa()
 
