@@ -1,3 +1,6 @@
+/* Planilha de atualização para o hotel através de um vetor. O hotel possui 21 quartos e, ao final, o código retornará uma relação
+com quais quartos estão livres e quais estão ocupados. */
+
 programa
 {
 
