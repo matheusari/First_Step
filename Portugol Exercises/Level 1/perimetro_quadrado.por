@@ -1,10 +1,12 @@
+/* Programa responsável por calcular o perímetro de um quadrado */
+
 programa 
 {
 	funcao inicio() 
 	{
 	real l1, l2
 	
-	escreva("Seja bem vindo ao automatizador de perímetro!\n\n")
+	escreva("Seja bem vindo a calculadora de perímetros do quadrado!\n\n")
 	escreva("Digite a medida do lado 1 do quadrado:\t")
 	leia(l1)
 	
