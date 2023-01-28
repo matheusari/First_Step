@@ -1,3 +1,5 @@
+/* Simulação de um caixa eletrônico que retorna o menor número de cédulas possíveis para o valor solicitado. */
+
 programa 
 { 
     funcao inicio () 
