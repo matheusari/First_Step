@@ -1,20 +1,22 @@
+/* Programa responsável por calcular a média de 2 notas de um aluno e, ao final, retornar se o mesmo foi aprovado ou não */
+
 programa
 {
 	funcao inicio ()
 	{
-		real n1, n2, media
+	real n1, n2, media
 
-    escreva("Olá! Seja bem-vindo ao automatizador de médias aritméricas.\n\n")
+   	escreva("Olá! Seja bem-vindo ao automatizador de médias aritméricas.\n\n")
         
-		escreva("Informe a primeira nota:\t" )
-		leia (n1)
+	escreva("Informe a primeira nota:\t" )
+	leia (n1)
+	
+	escreva( "Informe a segunda nota:\t")
+	leia (n2)
 		
-		escreva( "Informe a segunda nota:\t")
-		leia (n2)
-		
-		media = (n1 + n2) / 2 
+	media = (n1 + n2) / 2 
 
-		limpa()
+	limpa()
 		se (media >= 6)
 		{
 		escreva("O aluno está aprovado! A média final é: ", media , "\n")
