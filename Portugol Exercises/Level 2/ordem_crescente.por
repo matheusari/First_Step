@@ -1,3 +1,5 @@
+/* Programa responsável por colocar em ordem crescente 3 números inseridos pelo usuário */
+
 programa
 {
     funcao inicio()
