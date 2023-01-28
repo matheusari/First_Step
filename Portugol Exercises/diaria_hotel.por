@@ -1,3 +1,8 @@
+/* C√≥digo desenvolvido para calcular o valor total em di√°rias dos h√≥spedes. √â importante dizer que h√≥spedes menores de 5 anos
+possuem gratuidade e maiores de 80 anos pagam meia. O resto dos h√≥spedes paga a tarifa completa. Al√©m disso, mostramos ao final
+do programa a quantidade de gratuidades, meia-entradas e inteiras. Por fim, a idade do h√≥spede mais novo e do h√≥spede mais velho
+tamb√©m foram destacados. */
+
 programa 
 {
     funcao inicio() 
@@ -6,7 +11,7 @@ programa
     cadeia hospede
     caracter continuar = 'S'
 
-    escreva("Bem vindo ao Hotel V·rzea Paulista!\n\nO valor padr„o de nossa di·ria È R$100,00.\n")
+    escreva("Bem vindo ao Hotel V√°rzea Paulista!\n\nO valor padr√£o de nossa di√°ria √© R$100,00.\n")
     
         enquanto(continuar == 'S')
         {
@@ -14,10 +19,10 @@ programa
             para(inteiro cont = 1; cont <= 6; cont++)
             {
                 
-            escreva("\nDigite o nome do hÛspede:\t")
+            escreva("\nDigite o nome do h√≥spede:\t")
             leia(hospede)    
                 
-            escreva("Insira a idade do hÛspede:\t")
+            escreva("Insira a idade do h√≥spede:\t")
             leia(idade)
     
             se(cont == 1)
@@ -61,12 +66,12 @@ programa
                     meia++
                     }
                     
-                escreva("\nSe quiser adicionar mais hÛspedes, digite 'S'. Caso contr·rio, digite 'N':\t")
+                escreva("\nSe quiser adicionar mais h√≥spedes, digite 'S'. Caso contr√°rio, digite 'N':\t")
                 leia(continuar)
         
                 se (continuar == 'N')
                 {
-                escreva("\nA soma total das diarias È igual a: R$", total,"\nForam ",diaria, " di·rias, sendo ",inteira," inteiras, ", gratuidade," gratuidades e ", meia, " meias.\nO hÛspede mais velho est· com ",maisvelho, " ano(s)\nO hÛspede mais novo est· com ", maisnovo, " ano(s)\n")
+                escreva("\nA soma total das diarias √© igual a: R$", total,"\nForam ",diaria, " di√°rias, sendo ",inteira," inteiras, ", gratuidade," gratuidades e ", meia, " meias.\nO h√≥spede mais velho est√° com ",maisvelho, " ano(s)\nO h√≥spede mais novo est√° com ", maisnovo, " ano(s)\n")
                 rep=1
                 }
             }
