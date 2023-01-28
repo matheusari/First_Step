@@ -1,3 +1,7 @@
+/* Desenvolver um código que, a partir da inserção do número de convidados, retorna qual o auditório mais
+indicado para a realização do evento. O auditório alfa possui 150 cadeiras fixas e 70 removíveis, enquanto 
+o auditório beta possui 350 cadeiras. */
+
 programa
 {
 	funcao inicio()
