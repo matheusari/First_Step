@@ -6,7 +6,7 @@ programa
 	{
 	real r
 	
-	escreva("Seja bem vindo ao automatizador da área de uma circunferência!\n\n")
+	escreva("Seja bem vindo a calculadora de área da circunferência!\n\n")
 	escreva("Digite a medida do raio da circunferência:\t")
 	leia(r)
 
