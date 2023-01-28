@@ -1,3 +1,5 @@
+/* Código capaz de calcular as raízes de uma função de segundo grau */
+
 programa
 {
   inclua biblioteca Matematica
