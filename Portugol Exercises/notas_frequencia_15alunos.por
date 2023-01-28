@@ -5,16 +5,16 @@ programa
   real n1, n2, m, f, a
   inteiro i=0
 
-  escreva("Número de aulas dadas: ")
+  escreva("Olá!\nInsira o número total de aulas ministradas no período: ")
   leia(a)
 
     enquanto (i <= 14)
     {
     i++
-    escreva("\nA Nota 1 do aluno ", i, " é igual a: ")
+    escreva("\nDigite a Nota 1 do aluno ", i, ": ")
     leia(n1) 
 
-    escreva("\nA Nota 2 do aluno ", i, " é igual a: ")
+    escreva("\nDigite a Nota 2 do aluno ", i, ": ")
     leia(n2) 
 
     m=(n1+n2)/2
