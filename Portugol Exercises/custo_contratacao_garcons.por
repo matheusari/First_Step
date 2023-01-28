@@ -1,3 +1,7 @@
+/* Programa desenvolvido para automatizar o cálculo da contratação de um grupo de garçons para o restaurante
+do hotel. A equação para descobrir o valor total é igual a quantidade de garçons contratados multiplicado pelas
+horas trabalhas e por uma taxa de 10,5) */
+
 programa
 {
    funcao inicio()
