@@ -1,23 +1,23 @@
 programa
 {
-	funcao inicio()
-	{
-		inteiro garcons, horas, custo
+   funcao inicio()
+   {
+   inteiro garcons, horas, custo
 		
-    escreva("Ol·!\nPara saber o custo pela contrataÁ„o dos garÁons preencha os campos abaixo:\n")
-		escreva("\n1. Digite a quantidade de garÁons:\t")
-		leia(garcons)
+   escreva("Ol√°!\nPara saber o custo pela contrata√ß√£o dos gar√ßons preencha os campos abaixo:\n")
+   escreva("\n1. Digite a quantidade de gar√ßons:\t")
+   leia(garcons)
 
-		escreva("2. Insira a quantidade de horas:\t")
-		leia(horas)
+   escreva("2. Insira a quantidade de horas:\t")
+   leia(horas)
 
-		custo = garcons * horas * 10.5
+   custo = garcons * horas * 10.5
 
-    limpa()
+   limpa()
 
-    escreva("--------------------------------------------------------------------------------------------------------------------\n")
-		escreva("O custo total que o hotel ter· com a contrataÁ„o desses profissionais È igual a: ", custo, " horas\n")
-    escreva("--------------------------------------------------------------------------------------------------------------------\n")
-	}
+   escreva("--------------------------------------------------------------------------------------------------------------------\n")
+   escreva("O custo total que o hotel ter√° com a contrata√ß√£o desses profissionais √© igual a: ", custo, " horas\n")
+   escreva("--------------------------------------------------------------------------------------------------------------------\n")
+   }
 }
 
