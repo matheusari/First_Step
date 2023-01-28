@@ -31,6 +31,6 @@ programa
 		salarionovo2 = salario+(salario*0.05)   
 
 		escreva("O(a) funcionário(a) ", nome, " deve receber 5% de aumento. Seu salário irá de R$", salario, " para R$", salarionovo2, "\n")
-    	}
+    		}
 	}
 }
