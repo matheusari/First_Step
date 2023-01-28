@@ -1,30 +1,30 @@
 programa 
 {
-	funcao inicio() 
-	{
-		inteiro diaria, hospedes, quarto, valor, cont = 1, total=0
+   funcao inicio() 
+   {
+   inteiro diaria, hospedes, quarto, valor, cont = 1, total=0
 		
-		escreva("Seja muito bem-vindo ao sistema interno do Hotel Várzea Paulista!\n\nPor favor, digite a quatidade de hóspedes a seres cadastrados: \t")
-		leia(hospedes)
+   escreva("Seja muito bem-vindo ao sistema interno do Hotel VÃ¡rzea Paulista!\n\nPor favor, digite a quatidade de hÃ³spedes a seres cadastrados: \t")
+   leia(hospedes)
 		
-    limpa()
+   limpa()
 
-		enquanto(cont <= hospedes)
-		{
-		escreva("Informe o número do quarto do hóspede ", cont, ": \t")
-		leia(quarto)
+   enquanto(cont <= hospedes)
+   {
+   escreva("Informe o nÃºmero do quarto do hÃ³spede ", cont, ": \t")
+   leia(quarto)
 		
-		escreva("\nAgora, informe o valor individual da diária do mesmo: \t")
-		leia(diaria)
+   escreva("\nAgora, informe o valor individual da diÃ¡ria do mesmo: \t")
+   leia(diaria)
 		
-		escreva("\n")
+   escreva("\n")
 
-    limpa()
+   limpa()
 	
-		total=(total+diaria)
-		cont++
-		}
+   total=(total+diaria)
+   cont++
+   }
 		
-		escreva("O valor total das diárias é: R$", total, "\n")
-	}
+   escreva("O valor total das diÃ¡rias Ã©: R$", total, "\n")
+   }
 }
