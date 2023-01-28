@@ -1,10 +1,12 @@
+/* Programa que funciona como uma calculadora da área de um retângulo */
+
 programa 
 {
 	funcao inicio() 
 	{
 	real b, h
 	
-	escreva("Seja bem vindo ao automatizador de área!\n\n")
+	escreva("Seja bem vindo ao automatizador de área de um retângulo!\n\n")
 	escreva("Digite a medida da base do retângulo:\t")
 	leia(b)
 	
