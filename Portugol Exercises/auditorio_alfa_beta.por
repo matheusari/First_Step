@@ -8,7 +8,7 @@ programa
    {
    inteiro convidados, adicionais, cadeiras
 	    
-   escreva("Olá!\nPara saber qual ausitório usar nos informe a quantidade de convidados:\t")
+   escreva("Olá!\nPara saber qual auditório usar nos informe a quantidade de convidados:\t")
    leia(convidados)
 
    limpa()
