@@ -1,3 +1,5 @@
+/* Tal código foi feito para calcular o novo salário de seus funcionários de acordo com suas diretrizes */
+
 programa 
 {
 	funcao inicio() 
@@ -17,20 +19,18 @@ programa
 	leia(salario)
 	
 	limpa()
-    	se (idade >= 50)
-    	{
-    	    
-    	salarionovo = salario+(salario*0.10)   
-    	    
-    	escreva("O(a) funcionário(a) ", nome, " deve receber 10% de aumento. Seu salário irá de R$", salario, " para R$", salarionovo, "\n")
-    	}
-    	
-    	senao
-    	{
-    	    
-    	salarionovo2 = salario+(salario*0.05)   
-    	    
-    	escreva("O(a) funcionário(a) ", nome, " deve receber 5% de aumento. Seu salário irá de R$", salario, " para R$", salarionovo2, "\n")
+		se (idade >= 50)
+		{
+		salarionovo = salario+(salario*0.10)   
+
+		escreva("O(a) funcionário(a) ", nome, " deve receber 10% de aumento. Seu salário irá de R$", salario, " para R$", salarionovo, "\n")
+		}
+
+		senao
+		{  
+		salarionovo2 = salario+(salario*0.05)   
+
+		escreva("O(a) funcionário(a) ", nome, " deve receber 5% de aumento. Seu salário irá de R$", salario, " para R$", salarionovo2, "\n")
     	}
 	}
 }
