@@ -1,3 +1,5 @@
+/* Programa responsável por calcular a média de 3 alunos levando em consideração o peso de cada nota. */
+
 programa
 {
 	funcao inicio ()
