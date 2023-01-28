@@ -7,7 +7,7 @@ programa
 	cadeia dia, empresa
 
 	escreva("----------------------------------------------------------\n")
-	escreva("SEJA BEM-VINDO AO APP DE RESERVAS DO RESTAURANTE TREVISAN!\n")
+	escreva("SEJA BEM-VINDO AO APP DE RESERVAS DO RESTAURANTE DONIZETE!\n")
 	escreva("----------------------------------------------------------\n")
 	escreva("\nVamos começar?\nPrimeiro, insira o dia da semana desejado - (ex: terca):\t")
 	leia(dia)
