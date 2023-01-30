@@ -5,5 +5,5 @@ O repositório "First Step" foi criado para mostrar meu primeiro contato com có
 
 -----------------------------------------------------------------------------------------------------------------------------------------------------------
 
-# 🇺🇸 
+<h3> 🇺🇸 </h3>
 The "First Step" repository was created to show my first contact with codes. Here I used the Portugol IDE as a base, a representation that is very similar to the C language, but written in Portuguese. The software is widely used by beginners to facilitate the construction and reading of algorithms using language that is easier for students.
