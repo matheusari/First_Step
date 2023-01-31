@@ -14,7 +14,7 @@
 
 Aqui está um agrupado de exercícios que desenvolvi como parte da nota final para os cursos de Desenvolvimento de Sistemas e Sistemas Embarcados das grandes instituições de ensino brasileiras SENAC São Paulo e FATEC Jundiaí, respectivamente. Todos os códigos foram corrigidos pelos tutores dos cursos.
 
-
+-----------------------------------------------------------------------------------------------------------------------------------------------------------
 
 <div align="center">
   <h2>  🇺🇸 
